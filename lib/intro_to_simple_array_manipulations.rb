@@ -18,8 +18,8 @@ def using_pop(continents_array)
 end
 
 def pop_with_args(dog_breeds)
-  
-  small_dogs = dog_breeds.pop("Chihuahua","Shiba Inu")
+   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+  small_dogs = dog_breeds.pop(2,3)
 end
 
 def using_shift(my_favorite_cities)
