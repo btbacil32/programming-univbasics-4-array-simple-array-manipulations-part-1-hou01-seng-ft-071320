@@ -20,7 +20,6 @@ end
 def pop_with_args(dog_breeds)
   
   small_dogs = dog_breeds.pop("Chihuahua","Shiba Inu")
-  small_dogs
 end
 
 def using_shift(my_favorite_cities)
